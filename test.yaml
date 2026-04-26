@@ -7,10 +7,10 @@ jobs:
 
     steps:
       - name: scan secret
-      - run: echo "Scanning for secrets..."
+        run: echo "Scanning for secrets..."
 
       - name: check python syntax
-      - run: echo "Checking for python syntax..."
+        run: echo "Checking for python syntax..."
 
       - name: success
-      - run: echo "All clear! Hamudi can sleep now."
+        run: echo "All clear! Hamudi can sleep now."
